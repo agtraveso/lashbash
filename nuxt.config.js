@@ -33,7 +33,17 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['nuxt-socket-io'],
+
+  // https://nuxt-socket-io.netlify.app/
+  io: {
+    sockets: [
+      {
+        name: 'events',
+        url: 'http://localhost:3000'
+      }
+    ]
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
