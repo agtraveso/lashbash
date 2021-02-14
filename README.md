@@ -1,6 +1,12 @@
 # lashbash
 
-## Build Setup
+lashbash is a nuxt app that works as a Node.js sandbox.
+
+It uses [vm2](https://github.com/patriksimek/vm2) internally to run the JavaScript code.
+
+Try the demo [here](https://lashbash.herokuapp.com/)!
+
+### Build Setup
 
 ```bash
 # install dependencies
