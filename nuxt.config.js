@@ -40,7 +40,10 @@ export default {
     sockets: [
       {
         name: 'events',
-        url: 'http://localhost:3000'
+        url:
+          process.env.NODE_ENV === 'production'
+            ? 'https://lashbash.herokuapp.com'
+            : 'http://localhost:3000'
       }
     ]
   },
