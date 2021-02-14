@@ -18,7 +18,7 @@ module.exports = {
   variants: {},
   plugins: [],
   purge: {
-    enabled: process.env.NODE_ENV === 'production',
+    enabled: false, // FIXME: not working properly: process.env.NODE_ENV === 'production',
     content: [
       'components/**/*.vue',
       'layouts/**/*.vue',
