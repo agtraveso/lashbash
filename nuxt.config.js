@@ -3,14 +3,61 @@ import MonacoWebpackPlugin from 'monaco-editor-webpack-plugin'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'lashbash',
-    htmlAttrs: {
-      lang: 'en'
-    },
+    title: 'lasbash · Simple sandbox for Node.js',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'lashbash is a sandbox to execute pure Javascript...on Node!. Open source project to test how to run code on server side.'
+      },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'lasbash' },
+      {
+        hid: 'og:url',
+        name: 'og:url',
+        content: 'https://lashbash.herokuapp.com'
+      },
+      // TODO: { hid: 'og:image', name: 'og:image', content: '/meta_image.png' },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'lasbash · Simple sandbox for Node.js'
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content:
+          'lashbash is a sandbox to execute pure Javascript...on Node!. Open source project to test how to run code on server side.'
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image'
+      },
+      {
+        hid: 'twitter:url',
+        name: 'twitter:url',
+        content: 'https://lashbash.herokuapp.com'
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: '/meta_image.jpg'
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'lasbash · Simple sandbox for Node.js'
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          'lashbash is a sandbox to execute pure Javascript...on Node!. Open source project to test how to run code on server side.'
+      }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
