@@ -11,7 +11,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'lashbash is a sandbox to execute pure Javascript...on Node!. Open source project to test how to run code on server side.'
+          'lashbash is a sandbox to execute pure JavaScript...on Node!. Open source project to test how to run code on server side.'
       },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       { hid: 'og:site_name', name: 'og:site_name', content: 'lasbash' },
@@ -30,7 +30,7 @@ export default {
         hid: 'og:description',
         name: 'og:description',
         content:
-          'lashbash is a sandbox to execute pure Javascript...on Node!. Open source project to test how to run code on server side.'
+          'lashbash is a sandbox to execute pure JavaScript...on Node!. Open source project to test how to run code on server side.'
       },
       {
         hid: 'twitter:card',
@@ -56,7 +56,7 @@ export default {
         hid: 'twitter:description',
         name: 'twitter:description',
         content:
-          'lashbash is a sandbox to execute pure Javascript...on Node!. Open source project to test how to run code on server side.'
+          'lashbash is a sandbox to execute pure JavaScript...on Node!. Open source project to test how to run code on server side.'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
