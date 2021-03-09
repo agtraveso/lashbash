@@ -15,7 +15,7 @@
     "core-js": "^3.8.3",
     "dedent": "^0.7.0",
     "monaco-editor": "^0.22.3",
-    "monaco-editor-webpack-plugin": "^3.0.0",
+    "monaco-editor-webpack-plugin": "^3.0.1",
     "nuxt": "^2.14.12",
     "nuxt-socket-io": "^1.1.14",
     "request": "^2.88.2",
