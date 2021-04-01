@@ -6985,10 +6985,10 @@ num2fraction@^1.2.2:
   resolved "https://registry.yarnpkg.com/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
   integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
 
-nuxt-socket-io@^1.1.14:
-  version "1.1.14"
-  resolved "https://registry.yarnpkg.com/nuxt-socket-io/-/nuxt-socket-io-1.1.14.tgz#9947fdf433ef73ab63a9cf82158257db26ad8b9e"
-  integrity sha512-LT9MMYJOQ1IQJoeaySeL1CuMSGFCoH3pxao7nsAvhZKnJGyd6neX/D7DCJyzCxCHafnXfGV5vEwOkyBmMHXxkw==
+nuxt-socket-io@^1.1.16:
+  version "1.1.16"
+  resolved "https://registry.yarnpkg.com/nuxt-socket-io/-/nuxt-socket-io-1.1.16.tgz#8a2aae78dc360c95106b1877d11b82808dc39bd7"
+  integrity sha512-uxhf9k7s1aUIl6joU5zoYhGnTOoFCVhoW4aUSXOB45V5WqspHm5/0nCOmDNoWniRd4obmkJICKVrQ85L4vJsJQ==
   dependencies:
     "@nuxt/types" "^2.14.7"
     "@types/socket.io-client" "^1.4.34"
