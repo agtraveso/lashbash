@@ -19,7 +19,7 @@
     "nuxt": "^2.14.12",
     "nuxt-socket-io": "^1.1.14",
     "request": "^2.88.2",
-    "vm2": "^3.9.2"
+    "vm2": "^3.9.19"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",
